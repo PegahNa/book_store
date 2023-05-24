@@ -83,7 +83,9 @@ class BookRepository
 
 # No arguments
 
-def all # Executes the SQL query: # SELECT id, title, author_name FROM students;
+def all
+
+# Executes the SQL query: # SELECT id, title, author_name FROM students;
 
     # Returns an array of Book objects.
 
